@@ -1,0 +1,1 @@
+program na telefon komorkowy ktory za pomoca polaczenia z internetem (np gprs) wywoluje skrypt cgi o podanym adresie, przekazujac mu podane argumenty. program odbiera wynik dzialania skryptu. wlasciwie jest to tylko szkielet do bardziej sensownego programu

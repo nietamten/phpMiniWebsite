@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">  
+
+<head>
+
+<link rel="stylesheet"
+    href="style.css"
+    type="text/css"/>
+
+</head>
+
+<body>
+ <?php
+
+include 'lib.php';
+
+$wyn = sql("SELECT * FROM stat ORDER BY id DESC");
+
+if ( mysql_num_rows($wyn) > 0 ) {
+echo "<table border='1'>
+<tr>
+<th>ip</th>
+<th>browser</th>
+<th>comm</th>
+<th>time</th>
+</tr>";
+
+while($row = mysql_fetch_array($wyn))
+  {
+  echo "<tr>\n";
+  echo "<td>" . $row['ip'] . "</td>\n";
+  echo "<td>" . $row['cli'] . "</td>\n";
+  echo "<td>" . $row['what'] . "</td>\n";
+  echo "<td>" . $row['time'] . "</td>\n";
+  echo "</tr>\n";
+  }
+echo "</table>";
+
+}
+?> 
+</body>
+</html> 

@@ -1,0 +1,1 @@
+/* Wcztraæ z klawaitury dwie liczby zmiennoprzecinkowe oraz jedn

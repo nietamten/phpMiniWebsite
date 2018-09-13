@@ -1,0 +1,92 @@
+.p{
+float:right;
+display:inline;
+}
+a:visited { 
+text-decoration: none;
+color:yellow 
+}
+
+a:link { 
+text-decoration: none;
+color:yellow 
+}
+
+a:active { 
+text-decoration: none;
+color:yellow 
+}
+
+html { 
+color:white;
+background-color:black;
+font-family:monospace;
+}
+
+table
+{
+border:1;
+border-collapse:collapse;
+}
+table,th, td
+{
+border: 1px solid white;
+}
+
+#all{
+background-color:black;
+color:white;
+overflow:hidden;
+margin-left:auto;
+margin-right:auto;
+width:85%;height:80vh;
+border:dashed red;
+border-width:1px;
+}
+
+#fmgr{
+position:relative;
+float:left;
+overflow:auto;
+width:25%;height:70%;
+border-right:dashed red;
+border-width:1px;
+}
+
+#desc{
+
+position:relative;
+float:right;
+width:70%;height:70%;
+overflow:auto;
+/*border:dashed black*/
+}
+
+#comment{
+background-color:black;
+color:white;
+position:relative;
+width:100%;height:28%;
+overflow:auto;
+border-top:dashed red;
+border-width:1px;
+}
+
+div.file { /*width:100%;*/
+}          
+
+div.dir {
+}
+
+/*
+div.down {
+float:right;
+text-align:right;
+}
+div.name {
+float:left;
+text-align:left;
+}
+*/
+
+h1 {color:red}

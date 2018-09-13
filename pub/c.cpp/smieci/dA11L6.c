@@ -1,0 +1,1 @@
+/*Dana jest tablica float tab[n], gdzie n jest sta
